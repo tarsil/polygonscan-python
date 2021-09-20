@@ -1,11 +1,43 @@
 # polygonscan-python
 
+<p align="center">
+  <a href="https://github.com/tarsil/polygonscan-python" alt="build">
+        <img src="https://github.com/tarsil/polygonscan-python/workflows/build/badge.svg" /></a>
+</p>
+
+<p align="center">
+  <a href="https://badge.fury.io/py/polygonscan-python" alt="pypi">
+        <img src="https://badge.fury.io/py/polygonscan-python.svg" /></a>
+  
+  <a href="" alt="license">
+        <img src="https://img.shields.io/github/license/tarsil/polygonscan-python" /></a>
+  
+  <a href="https://www.python.org/downloads/release/python-385/" alt="python-version">
+        <img src="https://img.shields.io/badge/python-3.8-blue.svg" /></a>
+</p>
+
+<p align="center">
+  A complete Python API for <a href="https://polygonscan.com/">PolygonScan.com</a>
+</p>
+
+<p align="center">
+  Powered by <a href="https://polygonscan.com/apis">PolygonScan.com APIs</a>
+</p>
+
+<p align="center">
+  Available on <a href="https://pypi.org/project/polygonscan-python/">PyPI</a> 
+</p>
+
+
+<p align="center">
+  <i>A fork of the <a href="https://github.com/pcko1/bscscan-python">bscscan-python</a> package.</i>
+</p>
+
 A minimal, yet complete, Python API for [polygonscan.com](https://polygonscan.com/).
 
 This package was cloned from [bscscan-python](https://github.com/pcko1/bscscan-python) and
 readapted to polygon network. A special thanks to the [creator](https://github.com/pcko1).
-
-All standard and pro endpoints are provided.
+Without his hardwork this would be possible.
 
 Available on [PyPI](https://pypi.org/project/polygonscan-python/). Powered by [polygonscan.com APIs](https://polygonscan.com/apis#misc).
 
