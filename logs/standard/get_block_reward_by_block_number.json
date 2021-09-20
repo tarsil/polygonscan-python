@@ -1,0 +1,16 @@
+{
+  "method": "get_block_reward_by_block_number",
+  "module": "blocks",
+  "kwargs": {
+    "block_no": "2165403"
+  },
+  "log_timestamp": "2021-09-20-02:15:18",
+  "res": {
+    "blockNumber": "2165403",
+    "timeStamp": "1595322344",
+    "blockMiner": "0x0375b2fc7140977c9c76d45421564e354ed42277",
+    "blockReward": "0",
+    "uncles": [],
+    "uncleInclusionReward": "0"
+  }
+}

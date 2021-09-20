@@ -1,0 +1,11 @@
+{
+  "method": "get_tx_receipt_status",
+  "module": "transactions",
+  "kwargs": {
+    "txhash": "0x513c1ba0bebf66436b5fed86ab668452b7805593c05073eb2d51d3a52f480a76"
+  },
+  "log_timestamp": "2021-09-20-02:15:33",
+  "res": {
+    "status": ""
+  }
+}

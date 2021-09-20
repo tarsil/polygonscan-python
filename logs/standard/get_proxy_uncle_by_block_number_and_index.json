@@ -1,0 +1,10 @@
+{
+  "method": "get_proxy_uncle_by_block_number_and_index",
+  "module": "proxy",
+  "kwargs": {
+    "tag": "0x210A9B",
+    "index": "0x0"
+  },
+  "log_timestamp": "2021-09-20-02:15:22",
+  "res": null
+}

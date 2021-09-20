@@ -1,0 +1,12 @@
+{
+  "method": "get_matic_last_price",
+  "module": "stats",
+  "kwargs": {},
+  "log_timestamp": "2021-09-20-02:15:30",
+  "res": {
+    "ethbtc": "0.00002745",
+    "ethbtc_timestamp": "1632100462",
+    "ethusd": "1.291",
+    "ethusd_timestamp": "1632100466"
+  }
+}

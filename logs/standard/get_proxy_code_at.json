@@ -1,0 +1,9 @@
+{
+  "method": "get_proxy_code_at",
+  "module": "proxy",
+  "kwargs": {
+    "address": "0xf75e354c5edc8efed9b59ee9f67a80845ade7d0c"
+  },
+  "log_timestamp": "2021-09-20-02:15:26",
+  "res": "0x"
+}
