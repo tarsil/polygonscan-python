@@ -1,0 +1,7 @@
+{
+  "method": "get_total_matic_supply",
+  "module": "stats",
+  "kwargs": {},
+  "log_timestamp": "2021-09-20-02:15:29",
+  "res": "6652300637100000000000000000"
+}

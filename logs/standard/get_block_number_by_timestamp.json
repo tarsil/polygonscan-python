@@ -1,0 +1,10 @@
+{
+  "method": "get_block_number_by_timestamp",
+  "module": "blocks",
+  "kwargs": {
+    "timestamp": "1578638524",
+    "closest": "before"
+  },
+  "log_timestamp": "2021-09-20-02:15:19",
+  "res": "Error! No closest block found"
+}

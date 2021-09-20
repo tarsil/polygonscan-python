@@ -1,0 +1,10 @@
+{
+  "method": "get_proxy_transaction_by_block_number_and_index",
+  "module": "proxy",
+  "kwargs": {
+    "tag": "0x10d4f",
+    "index": "0x0"
+  },
+  "log_timestamp": "2021-09-20-02:15:24",
+  "res": null
+}

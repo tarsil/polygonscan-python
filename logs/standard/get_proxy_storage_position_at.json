@@ -1,0 +1,10 @@
+{
+  "method": "get_proxy_storage_position_at",
+  "module": "proxy",
+  "kwargs": {
+    "position": "0x0",
+    "address": "0x6e03d9cce9d60f3e9f2597e13cd4c54c55330cfd"
+  },
+  "log_timestamp": "2021-09-20-02:15:27",
+  "res": "0x0000000000000000000000000000000000000000000000000000000000000000"
+}
