@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="polygonscan-python",
-    version="1.0.1",
+    version="1.0.2",
     description="A minimal, complete, python API for polygonscan.com.",
     url="https://github.com/tarsil/polygonscan-python",
     author="Tiago A. Silva",
