@@ -176,9 +176,12 @@ This will regenerate the logs under `logs/` with the most recent results and the
 
 In `python`, create a client with your personal [polygonscan.com](https://polygonscan.com/) API key:
 
+E.g:
 ``` python
 from polygonscan import PolygonScan
-matic = PolygonScan(YOUR_API_KEY) # key in quotation marks
+
+with PolygonScan("API_KEY",False) as matic:
+    print(matic.get_matic_balance(address="0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a"))
 ```
 
 Then you can call all available methods, e.g.:
