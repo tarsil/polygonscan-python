@@ -35,9 +35,8 @@
 
 A minimal, yet complete, Python API for [polygonscan.com](https://polygonscan.com/).
 
-This package was cloned from [bscscan-python](https://github.com/pcko1/bscscan-python) and
-readapted to polygon network. A special thanks to the [creator](https://github.com/pcko1).
-Without his hardwork this would be possible.
+This package was based on [bscscan-python](https://github.com/pcko1/bscscan-python) and
+applied to the polygon network. A special thanks to the [creator](https://github.com/pcko1).
 
 Available on [PyPI](https://pypi.org/project/polygonscan-python/). Powered by [polygonscan.com APIs](https://polygonscan.com/apis#misc).
 
