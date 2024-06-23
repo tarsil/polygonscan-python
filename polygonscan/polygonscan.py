@@ -9,15 +9,16 @@ from polygonscan.core.sync_client import SyncClient
 class PolygonScan:
     """Client factory."""
 
-    def __new__(cls, api_key: str, asynchronous=True, debug=False) -> BaseClient:
+    def __new__(cls, api_key: str, asynchronous=True, debug=False, timeout=None) -> BaseClient:
         """Create a new client.
         Args:
             api_key (str): Your polygonscan.com API key.
             asynchronous (bool, optional): Whether client is async or not. Defaults to True.
             debug (bool, optional): Display generated URLs for debugging. Defaults to False.
+            timeout (int, optional): Timeout for requests. Defaults to None.
         Returns:
             BaseClient: polygonscan client.
         """
         if asynchronous:
-            return AsyncClient(api_key=api_key, debug=debug)
-        return SyncClient(api_key=api_key, debug=debug)
+            return AsyncClient(api_key=api_key, debug=debug, timeout=timeout)
+        return SyncClient(api_key=api_key, debug=debug, timeout=timeout)

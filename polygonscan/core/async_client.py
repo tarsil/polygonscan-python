@@ -1,5 +1,5 @@
 import polygonscan
-from aiohttp import ClientSession
+from aiohttp import ClientSession, ClientTimeout
 from polygonscan.core.base import BaseClient
 from polygonscan.enums.fields_enum import FieldsEnum as fields
 from polygonscan.utils.parsing import ResponseParser as parser
@@ -29,7 +29,11 @@ class AsyncClient(BaseClient):
         return wrapper
 
     async def __aenter__(self):
-        self._session = ClientSession()
+        if self._timeout:
+            timeout = ClientTimeout(total=self._timeout)
+        else:
+            timeout = None
+        self._session = ClientSession(timeout=timeout)
         return await self._build()
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
